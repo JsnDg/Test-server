@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Name of the process to check
-PROCESS_NAME=app.py
+PROCESS_NAME=server.py
 
 # Find the process by name and count the number of occurrences
 PROCESS_COUNT=$(ps aux | grep $PROCESS_NAME | grep -v grep | wc -l)
